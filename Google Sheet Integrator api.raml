@@ -1,0 +1,12 @@
+#%RAML 0.8
+title: Google Sheet Integrator
+version: 1.0
+/cell:
+  get:
+    description: <<get the contents of the first Cell in the first worksheet>>
+    responses:
+      200:
+        body:
+          application/json:
+            example: |
+              {"value":"Hello World"}
