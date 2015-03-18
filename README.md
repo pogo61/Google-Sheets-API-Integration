@@ -1,23 +1,15 @@
-# SOA Software API HOOK
-Put a nice company logo image here. 
-Link to product documentation and product overview page
-## Google Sheets API 
+# Akana API HOOK
+![Image of Akana] 
+(https://www.akana.com/img/formerlyLOGO8.png) 
+[Akana.com](http://akana.com)
+
+## Google Sheets API Integration 
 ### About the API
-- CRUD spreadsheets on Google Drive
-- Home Page: [SmartyStreet] (https://smartystreets.com)
+- this API will get the value of the first Cell in the first Worksheet, of the first Google Sheets Spreadsheet
 - API Documentation: [Google Sheets API docs] (https://developers.google.com/google-apps/spreadsheets/)
 
 ### Pre-Reqs
-- This will only work for [Google Apps for work] (https://www.google.com/intx/en_au/work/apps/business/?utm_source=google&utm_medium=cpc&utm_campaign=japac-smb-apps-bkws-au-en&utm_content=gafb&utm_term=google%20apps&gclid=CPGWm82o5cMCFU06vAod9kcAOA&gclsrc=ds). You, or your organisation, must have a subscription to this service. The reason for this is that this is the only service that Google provides 2-legged OAuth to (via a service account). Google uses only 3-legged OAuth with its free and open Google Docs. 3-legged OAuth is unsuitable to server to server integration.
-- Register the application in the [Google Developers Console] (https://console.developers.google.com/). Creating an account if you have not already registered.
-- once the App is defined, double click on it to be taken the the App details page. 
-- Click on the "Credentials" left hand menu item
-- When the Credentials Portlet is displaid, click on the "Create new Client ID" button. then select the "Service Acccount" for the CLient ID type. (note: you must be the Google Apps sdministrator to do this).
-- once this is done you should have a new section in the Credentials Portlet for the Service Account.
-- Copy the clientId of the Service Account
-- login to the  [Google Apps for work Admin Console] (https://admin.google.com) select the security icon, scroll to the botom of the admin page and select the "Show more" link, select the "Advanced Settings" link that appears, then the "Manage API client access" link.
-- in the "Client Name" field paste the Service Account ClientId you coppied, then copy this list of API scopes into the Scopes field and click the "Authorize" button:
-https://spreadsheets.google.com/feeds,https://www.googleapis.com/auth/drive,https://www.googleapis.com/auth/drive.appdata,https://www.googleapis.com/auth/drive.apps.readonly,https://www.googleapis.com/auth/drive.file,https://www.googleapis.com/auth/drive.metadata.readonly,https://www.googleapis.com/auth/drive.readonly 
+- You must install the [Google Sheets API Hook](https://github.com/pogo61/Google-Sheets-API-Hook"Google Sheets API Hook"). As this integration API relies on the connections and security in that API.
 
 ### Getting Started Instructions
 #### Download and Import
