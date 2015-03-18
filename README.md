@@ -9,7 +9,7 @@
 - API Documentation: [Google Sheets API docs] (https://developers.google.com/google-apps/spreadsheets/)
 
 ### Pre-Reqs
-- You must install the [Google Sheets API Hook](https://github.com/pogo61/Google-Sheets-API-Hook"Google Sheets API Hook"). As this integration API relies on the connections and security in that API.
+- You must install the [Google Sheets API Hook](https://github.com/pogo61/Google-Sheets-API-Hook). As this integration API relies on the connections and security in that API.
 
 ### Getting Started Instructions
 #### Download and Import
@@ -35,7 +35,7 @@
 - ensure that the status changes to "Workflow Is Completed"
 
 #### Configure Security
-- See the [Google Sheets API Hook](https://github.com/pogo61/Google-Sheets-API-Hook"Google Sheets API Hook")
+- See the [Google Sheets API Hook](https://github.com/pogo61/Google-Sheets-API-Hook)
 
 #### Verify Connectivity
 - Using curl http://"URL of the Listener of your ND"/sheets_int/cell
